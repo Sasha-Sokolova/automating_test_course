@@ -1,0 +1,26 @@
+1621885677639	geckodriver	INFO	Listening on 127.0.0.1:58923
+1621885845866	geckodriver	INFO	Listening on 127.0.0.1:58957
+1621886155900	geckodriver	INFO	Listening on 127.0.0.1:59126
+1621886158969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\9FA5~1\\AppData\\Local\\Temp\\rust_mozprofile8pJ4Hj"
+1621886159348	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621886161624	Marionette	INFO	Listening on port 59134
+1621886162151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1621265141, line 6203: unreachable code after return statement
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1621265141, line 8812: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Саша\AppData\Local\Temp\rust_mozprofile8pJ4Hj\protections.sqlite
+1621886167270	Marionette	INFO	Stopped listening on port 59134
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621886577223	geckodriver	INFO	Listening on 127.0.0.1:59285
+1621886580285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\9FA5~1\\AppData\\Local\\Temp\\rust_mozprofileUyAhKs"
+1621886580671	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621886582532	Marionette	INFO	Listening on port 59293
+1621886582979	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 753: ReferenceError: oscar is not defined
+1621886585071	Marionette	INFO	Stopped listening on port 59293
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
