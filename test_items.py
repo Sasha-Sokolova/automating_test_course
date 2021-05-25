@@ -7,7 +7,7 @@ link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 def test_put_item_into_basket(browser):
     browser.get(link)
     time.sleep(5)
-    button = browser.find_elements_by_xpath("//button[@type='submit']")
+    button = browser.find_elements_by_xpath("//button[@class='btn btn-lg btn-primary btn-add-to-basket']")
     print(len(button))
     # проверяем наличие кнопки
     assert len(button)>0
